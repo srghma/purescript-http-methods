@@ -1,0 +1,21 @@
+package:
+  name: http-methods
+  publish:
+    license: MIT
+    version: 6.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-http-methods
+  dependencies:
+    - either
+    - prelude
+    - strings
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
